@@ -38,6 +38,14 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
                 text: '   go',link :'/backend/language/go/'
               }
             ]
+          },
+          {
+            text: '部署',
+            items: [
+              {
+                text: 'docker',link :'/backend/ops/docker/'
+              }
+            ]
           }
         ],
       },
