@@ -44,6 +44,9 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
             items: [
               {
                 text: 'docker',link :'/backend/ops/docker/'
+              },
+              {
+                text: 'k8s',link: '/backend/ops/k8s'
               }
             ]
           }
