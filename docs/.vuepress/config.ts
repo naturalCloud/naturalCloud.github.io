@@ -49,7 +49,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
             ]
           },
           {
-            text: '部署',
+            text: '云原生',
             items: [
               {
                 text: 'docker',link :'/backend/ops/docker/'
@@ -60,6 +60,11 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
             ]
           }
         ],
+      },
+      {
+        text: '踩坑见闻',
+        link: '/坑闻录/'
+
       },
       {
         text: '投资','link': '/invest/',
